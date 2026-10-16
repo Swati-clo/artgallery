@@ -1,0 +1,49 @@
+# AOI Creation & Route Planner
+
+A web-based mapping application that helps users create routes by selecting multiple locations on an interactive map.
+
+## Features
+
+- Interactive map powered by OpenLayers and OpenStreetMap
+- Add and delete location markers
+- Calculate total distance between consecutive stops
+- Estimate travel costs based on distance
+- Finalize routes with a distance and cost summary
+- Save marker data using browser local storage
+- Progressive Web App (PWA) configuration
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- OpenLayers
+- Tailwind CSS
+- OpenStreetMap
+- Vite PWA Plugin
+
+## Getting Started
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd aoi-creation-spa
+npm install
+npm run dev
+```
+
+Open the local URL displayed in your terminal to use the application.
+
+## Build
+
+```bash
+npm run build
+```
+
+## Future Improvements
+
+- Turn-by-turn road routing
+- Address and location search
+- Estimated travel time
+- Multiple route comparisons
+- Export routes and share locations
+
